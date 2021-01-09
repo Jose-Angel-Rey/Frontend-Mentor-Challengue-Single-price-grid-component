@@ -8,4 +8,6 @@ Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
-Contact me on: dev.joseangel.rey@gmail.com
+
+My challengue solution 💻: https://frontend-mentor-challengue-single-price-grid-component.vercel.app/
+Contact: dev.joseangel.rey@gmail.com
