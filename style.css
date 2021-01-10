@@ -131,10 +131,15 @@ font-size: 20px;
 
 @media screen and (min-width: 768px){
 
+  body{
+  height: 100vh;
+  }
+  
   .card-container{
     max-width: 575px;
     flex-flow: row wrap;
     transition: all 1s;
+    margin: auto;
   }
 
   .card-container:hover{
