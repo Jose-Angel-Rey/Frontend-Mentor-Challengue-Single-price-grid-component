@@ -43,6 +43,7 @@
   @extend .card-join-section;
   background-color: $subscription-section-bg-color;
   color: #fff;
+  border-radius: 0;
 
   &#{__title} {
     @extend .card-join-section__title;
