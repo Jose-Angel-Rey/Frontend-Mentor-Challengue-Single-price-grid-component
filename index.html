@@ -13,7 +13,8 @@
 
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./style.css" />
+
+  <link rel="stylesheet" href="./css/main-styles.css" />
 
   <title>Single Price Grid Component | Frontend Mentor</title>
 
@@ -25,41 +26,47 @@
 </head>
 
 <body>
+
+  <!-- Card container -->
   <main class="card-container">
-    <section class="card-header">
-      <h1 class="card-header__title mg-bottom">Join our community</h1>
 
-      <p class="card-header__content mg-bottom">
+    <!-- Join section -->
+    <section class="card-join-section">
+      <h1 class="card-join-section__title mg-bottom">Join our community</h1>
+
+      <h2 class="card-join-section__sub-title mg-bottom">
         30-day, hassle-free money back guarantee
-      </p>
+      </h2>
 
-      <p class="card-header__content">
+      <p class="card-join-section__content">
         Gain access to our full library of tutorials along with expert code
         reviews. Perfect for any developers who are serious about honing their
         skills.
       </p>
     </section>
 
-    <section class="card-content-price">
-      <h2 class="card-content-price__title mg-bottom">
+    <!-- Subscription section -->
+    <section class="card-subscription-section">
+      <h2 class="card-subscription-section__title mg-bottom">
         Monthly Subscription
       </h2>
 
-      <div class="card-content-price__price mg-bottom">
+      <div class="card-subscription-section__value mg-bottom">
         <span>&dollar;29</span>per month
       </div>
 
-      <p class="card-content-price__info mg-bottom">
+      <p class="card-subscription-section__info mg-bottom">
         Full access for less than &dollar;1 a day
       </p>
 
-      <a href="#" class="card-content-price__sign-up-btn">Sign up</a>
+      <button disabled class="card-subscription-section__sign-up-btn">Sign up</button>
     </section>
 
-    <section class="card-content-explication">
-      <h2 class="card-content-explication__title mg-bottom">Why Us</h2>
+    <!-- Why Us section -->
+    <section class="card-why-us-section">
+      <h2 class="card-why-us-section__title mg-bottom">Why Us</h2>
 
-      <p class="card-content-explication__content">
+      <p class="card-why-us-section__content">
         Tutorials by industry experts Peer &amp; expert code review Coding
         exercises Access to our GitHub repos Community forum Flashcard decks
         New videos every week
@@ -67,6 +74,7 @@
     </section>
   </main>
 
+  <!-- Attribution section -->
   <footer class="attribution">
     <p>
       Challenge by
