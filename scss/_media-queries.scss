@@ -1,50 +1,43 @@
-// @media screen and (min-width: 768px) {
-//   body {
-//     height: 100vh;
-//   }
+@media screen and (min-width: 768px) {
+  .card-container {
+    max-width: 575px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-join-section {
+    grid-column: 1 / -1;
+    padding: 35px;
+    &#{__title} {
+      font-size: 19px;
+    }
+    &#{__sub-title} {
+      font-size: 17px;
+      margin: 20px auto 15px 0px;
+    }
+    &#{__content} {
+      font-size: 15px;
+    }
+  }
+  .card-subscription-section {
+    grid-column: 1 / 2;
+    border-radius: 0 0 0 10px;
+    height: 245px;
+  }
+  .card-why-us-section {
+    grid-column: 2 / -1;
+    height: 245px;
+    border-radius: 0 0 10px 0;
 
-//   .card-container {
-//     max-width: 575px;
-//     flex-flow: row wrap;
-//     transition: all 1s;
-//     margin: auto;
-//   }
-
-//   .card-container:hover {
-//     box-shadow: 7px 7px 10px rgba(41, 41, 41, 0.2);
-//     cursor: pointer;
-//   }
-
-//   .card-header {
-//     width: 100%;
-//   }
-
-//   .card-content-price,
-//   .card-content-explication {
-//     width: 50%;
-//     height: 235px;
-//   }
-
-//   .card-content-explication {
-//     padding: 30px 100px 34px 25px;
-//     border-radius: 0px 0px 5px 0px;
-//   }
-
-//   .card-content-price {
-//     border-radius: 0px 0px 0px 5px;
-//   }
-//   .card-content-price__info,
-//   .card-content-explication__content {
-//     font-size: 14px;
-//   }
-//   .attribution {
-//     position: absolute;
-//     bottom: 25px;
-//   }
-// }
-
-// @media screen and (max-width: 350px) {
-//   .card-container {
-//     max-width: 250px;
-//   }
-// }
+    &#{__content} {
+      font-size: 13px;
+    }
+  }
+  .attribution {
+    position: absolute;
+    right: 0;
+    transform: translate(-5vw, 5vh);
+    top: 0;
+    margin: 0;
+  }
+}
