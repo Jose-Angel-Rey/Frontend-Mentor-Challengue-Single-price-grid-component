@@ -85,6 +85,23 @@
       size: 15px;
     }
     background-color: $subscription-section-btn-bg-color;
+    cursor: pointer;
+    animation: beat 1s 1s alternate infinite;
+    transition: all 0.5s;
+    &:hover {
+      background-color: darken($subscription-section-btn-bg-color, 5);
+    }
+    &:active {
+      background-color: lighten($subscription-section-btn-bg-color, 10);
+    }
+  }
+}
+@keyframes beat {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.02);
   }
 }
 
