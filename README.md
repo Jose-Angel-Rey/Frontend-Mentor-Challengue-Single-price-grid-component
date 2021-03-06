@@ -4,11 +4,14 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
+Thanks for checking my front-end coding challenge solution.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
+[Frontend Mentor](https://www.frontendmentor.io) challenges allow improve skills in a real-life workflow.
+
+💡 My challengue solution: 
+
+💻 Contact: dev.joseangel.rey@gmail.com
 
 
-💡 My challengue solution 💻: https://challengue-solution-single-price-grid-component-jose-angel-rey.vercel.app/
 
-👨‍💻 Contact: dev.joseangel.rey@gmail.com
+
