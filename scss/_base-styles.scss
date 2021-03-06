@@ -11,8 +11,9 @@
 body {
   // width: 100%;
   // height: auto;
-  background-color: #e5eff5;
-  font-family: Karla;
+  min-height: 100vh;
+  background-color: $body-bg-color;
+  font-family: $font-family;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
